@@ -930,6 +930,7 @@ transform: translateY(-50%);
     background: var(--main-color);
     height: 100%;
     display: block;
+    transition: width 0.5s linear;
 }
 .skills .progress-bar .progress-bar__bar span::before {
     content: attr(data-progress);
