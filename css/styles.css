@@ -209,6 +209,16 @@ transform: translateY(-50%);
 body {
     position: relative;
 }
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    z-index: 111;
+}
+.scroll-to-top i {
+    font-size: 3rem;
+    color: var(--main-color);
+}
 /* End Scroll To Top */
 /* Start Header */
 .header {
