@@ -1498,7 +1498,6 @@ body {
     gap: 4rem;
     margin-bottom: 3rem
 }
-.footer .content {}
 .footer .content h3 {
     color: #fff;
     font-size: 4.5rem;
@@ -1535,7 +1534,6 @@ body {
     color: #b9b9b9;
     font-size: 1.6rem;
 }
-.footer .links {}
 .footer .links li {
     color: #b9b9b9;
     font-size: 1.6rem;
@@ -1554,7 +1552,6 @@ body {
     color: var(--main-color);
     margin-right: 2rem;
 }
-.footer .info {}
 .footer .address {
     margin-bottom: 2rem;
 }
@@ -1591,8 +1588,6 @@ body {
     color: #b9b9b9;
     line-height: 1.8;
 }
-.footer .phone-num p {}
-.footer .mini-imgs {}
 .footer .mini-imgs img {
     width: 80px;
     border: 3px solid #fff;
@@ -1609,94 +1604,28 @@ body {
     background-color: #191919;
 }
 @media (min-width : 768px) {
-    .footer {}
     .footer .container {
-        text-align: left;
+            text-align: left;
     }
-.footer .content {}
-.footer .content h3 {}
-.footer .content .social {
-    justify-content: flex-start;
-    margin: 2rem 0;
+    .footer .content .social {
+        justify-content: flex-start;
+        margin: 2rem 0;
+    }
+    .footer .content .social li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .content p {
+        line-height: 1.8;
+    }
+    .footer .info > div {
+        display: flex;
+        align-items: center;
+    }
+    .footer .info > div > i {
+        margin: 0 1.2rem 0 0;
+    }
 }
-.footer .content .social li {}
-.footer .content .social li a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.footer .content p {
-    line-height: 1.8;
-}
-.footer .links {}
-.footer .links li {}
-.footer .info {}
-.footer .info > div {
-    display: flex;
-    align-items: center;
-}
-.footer .info > div > i {
-    margin: 0 1.2rem 0 0;
-}
-.footer .info > div > p {
 
-}
-.footer .address {}
-.footer .address i {}
-.footer .address p {}
-.footer .business-hours i {}
-.footer .business-hours p {}
-.footer .phone {}
-.footer .phone i {}
-.footer .phone .phone-num {}
-.footer .phone-num p {}
-.footer .mini-imgs {}
-.footer .mini-imgs img {} 
-}
-@media (min-width : 992px) {
-    .footer {}
-.footer .content {}
-.footer .content h3 {}
-.footer .content .social {}
-.footer .content .social li {}
-.footer .content .social li a {}
-.footer .content p {}
-.footer .links {}
-.footer .links li {}
-.footer .info {}
-.footer .address {}
-.footer .address i {}
-.footer .address p {}
-.footer .business-hours i {}
-.footer .business-hours p {}
-.footer .phone {}
-.footer .phone i {}
-.footer .phone .phone-num {}
-.footer .phone-num p {}
-.footer .mini-imgs {}
-.footer .mini-imgs img {} 
-}
-@media (min-width : 1200px) {
-    .footer {}
-.footer .content {}
-.footer .content h3 {}
-.footer .content .social {}
-.footer .content .social li {}
-.footer .content .social li a {}
-.footer .content p {}
-.footer .links {}
-.footer .links li {}
-.footer .info {}
-.footer .address {}
-.footer .address i {}
-.footer .address p {}
-.footer .business-hours i {}
-.footer .business-hours p {}
-.footer .phone {}
-.footer .phone i {}
-.footer .phone .phone-num {}
-.footer .phone-num p {}
-.footer .mini-imgs {}
-.footer .mini-imgs img {} 
-}
 /* End Footer */
