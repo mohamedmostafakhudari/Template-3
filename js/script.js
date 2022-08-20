@@ -11,13 +11,13 @@ window.onscroll = function () {
 }
 
 const scrollToTop = document.querySelector('.scroll-to-top');
-window.onscroll = function () {
+window.addEventListener('scroll', () => {
     if (window.pageYOffset > 50 || document.documentElement.scrollTop > 50 || document.body.scrollTop > 50) {
     scrollToTop.style.display = 'block';
     } else {
         scrollToTop.style.display = 'none';
     }
-}
+})
 scrollToTop.addEventListener('click', scrollTop);
 function scrollTop () {
     window.scroll(0,0);
